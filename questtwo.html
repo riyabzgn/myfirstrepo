@@ -1,0 +1,31 @@
+<html>
+<body>
+	<h4> Personal Details Below </h4>
+	<ul type="square">
+		<li> <input type="button" id="one" value="Name" onclick="change1()"> </li> <br>
+		<li> <input type="button" id="two" value="Registration Number" onclick="change2()"> </li> <br>
+		<li> <input type="button" id="three" value="Department" onclick="change3()"> </li> <br>
+		<li> <input type="button" id="four" value="Image of SMIT" onclick="change4()""> </li> <br>
+	</ul>
+<script>
+	function change1(){
+		document.write(document.getElementById("one").innerHTML = "Riya Bazgain");
+	}
+
+	function change2(){
+		document.write(document.getElementById("two").innerHTML = "202000533");
+
+	}
+
+	function change3(){
+
+		document.write(document.getElementById("three").innerHTML = "Computer Science and Engineering");
+	}
+
+	function change4(){
+		document.write(document.getElementById("four").innerHTML = `<img src="smit.jpg" width=600px heigth=300px>`);
+	}
+
+</script>
+</body>
+</html>

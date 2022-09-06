@@ -1,0 +1,69 @@
+<html>
+	<style>
+		#box1{
+		background-color:yellow;
+		text-align:center;
+		border:15px;
+		padding:15px;
+		margin:75px
+		}
+
+		#box2{
+		background-color:purple;
+		text-align:center;
+		color:white;
+		border:15px;
+		padding:15px;
+		margin:75px
+		}
+
+		#box3{
+		background-color:blue;
+		text-align:center;
+		color:white;
+		border:15px solid black;
+		padding:15px;
+		margin:75px
+		}
+	</style>
+	<script>
+
+		function AlertMessage(){
+			alert("Name: Riya Bazgain");
+			alert("Registration Number: 202000533");
+		}
+		function largePic(x){
+			x.style.width="640px";
+			x.style.height="360px";
+		}
+		function normPic(x){
+			x.style.width="320px";
+			x.style.height="200px";
+		}
+		function large(){
+			var x=document.getElementById("name");
+			x.style.fontSize=50;
+		}
+		function small(){
+			var x=document.getElementById("name");
+			x.style.fontSize=25;
+		}
+	</script>
+	<body>
+		<div id="box1">
+ 			<p> Click button to view Name and Registration number</p>
+			<button onclick="AlertMessage()"> Press Here </button>
+		</div>
+
+		<div id="box2">
+			<h4 id="name" onmouseover="large()" onmouseout="small()">Jennifer Aniston</h4>
+			<img onmouseover="largePic(this)" onmouseout="normPic(this)" src="rachel.jpg" width="320px" height="180px">
+
+		</div>
+
+		<div id="box3">
+			<h4>riya_202000533@smit.smu.edu.in</h4>
+		</div>
+	</body>
+
+</html>

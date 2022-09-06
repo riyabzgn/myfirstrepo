@@ -1,0 +1,45 @@
+/*
+    SRS DOCUMENT
+    
+    SYSTEM REQUIREMENTS:-
+    1:-GCC compiler
+    
+    Functional Requirements:-
+    1:-Signup()
+    a: This function is used to accept:
+        i: Username
+        ii: Password
+        
+        Input: Username/Password
+        Output: Signup Successful/Unsuccessful
+        
+    
+    2:-Login()
+    a: This function is used to accept:
+        i: Username
+        ii: Password
+        
+        Input: Username/Password
+        Output: Login Successful/Unsuccessful
+        
+    2:-Registration Process()
+    a: This function is used to accept:
+        i: Name
+        ii: Registration number
+        iii.Backlog/Backlog Details
+        iv. Fee Payment-Full/Installment
+        
+        
+        Input:Name Registration number, Backlog/Backlog Details ,Fee Payment-Full/Installment
+        Output: Registration Successful
+        
+    3:-Fee Recipt
+        Decription : To get the fee recipt
+        
+        Input: NONE
+        Output: Fee recipt
+        
+    4:-Logout
+        Decription: To log out of software
+        
+*/

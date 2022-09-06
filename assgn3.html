@@ -1,0 +1,28 @@
+<html>
+
+<form>
+	Enter num1:
+	<input type="text" name="num1" id="textbox1" /><br>
+	Enter num2:
+	<input type="text" name="num2" id="textbox2" /><br>
+</form>
+
+<script>
+
+	parseInt (var num1= document.getElementById("textbox1").value);
+	parseInt (int num2= document.getElementById("textbox2").value);
+
+	function sum(){
+		alert("Display sum?");
+		document.write(num1+num2);
+	}
+	sum();
+
+
+</script>
+
+<form> 	
+	<input type="button" onclick="sum()" value="Click here to find sum">
+</form>
+
+</html>
